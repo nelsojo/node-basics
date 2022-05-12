@@ -1,0 +1,208 @@
+aside {
+  margin-top: 30px;
+  margin-left: -30px;
+    /* width: 20%; */
+  float: right;  
+  margin-right: 13px;
+  position:relative;
+  padding:1px 10px 1px 1px;
+  border-radius: 8px;
+  box-shadow:  6px 6px 2px 0px rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid darkblue;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  }
+
+.flex-container2 {
+    display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.current-link {
+    color:black;
+}
+.flex-child {
+    flex: 2;
+    border: 2px;
+    color: darkblue;
+   /* text-shadow: 1px 1px 2px black, 0 0 50px grey;*/
+     margin-left: 10px;
+    padding-right: 10px;
+    
+}  
+
+.flex-child:first-child {
+    margin-right: 10px;
+   
+} 
+    img.grayIt {
+  filter: grayscale(100%);
+}
+
+
+h1{
+    font-family: Arial, Verdana, sans-serif;
+  
+}
+h2{
+    font-family:  Times, Arial,  sans-serif; 
+}
+
+.bulletCenter{
+    text-align: center;
+    list-style-position: inside;
+}
+p, h5, h6 {
+    color:black;
+    font-size: 110%;
+}
+
+h4 {
+    font-size: 125%;
+    color: #DED447;
+}
+
+
+
+h1 {
+    color: darkblue;
+}
+
+
+body{
+background-color:floralwhite;
+}
+
+
+.bulletCenter{
+    text-align: center;
+    list-style-position: inside;
+}
+
+ .textCenter {
+        text-align: center;  
+     
+}
+ .ImageCenter{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+ .ImageCenter2{
+                display: block;
+                margin-left: 39%;
+                margin-right: auto;
+                width: 50%;
+            }
+.ImageFloatRight{
+                float:right;
+                 width: 25%;  
+            }
+img.ImageFloatRight3{
+                float:right;
+                 width: 25%;  
+                margin-right:50px;
+            }
+.ImageFloatRight2{
+                float:right;
+                width: 80%; 
+                margin-right:120px;
+            }
+.ImageFloatLeft{
+                float:left;
+                 width: 25%;
+            }
+
+
+.ImageCenterShrink{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 20%;
+  height: 20%;
+}
+
+
+href.textShade, a {
+  /*  text-shadow: 1px 1px 2px black, 0 0 10px black;*/
+    text-decoration: none;
+}
+
+
+
+img{
+  width: auto;
+  /*max-width: 300px;*/
+  height: auto;
+  /*max-height: 200px;*/
+}
+ul.navbar {
+  list-style:none; /* Remove default bullets */
+  
+}
+
+ul.navbar li::before {
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  text-align: center;
+  list-style-position: inside; 
+      
+            
+}
+ul.navbar a, h3 {
+    text-decoration: none;
+}
+h5.incWordSpace {
+    word-spacing: 3px;
+}
+p.incFontWeight{
+    font-weight: 600;
+}
+#decFontWeight{
+    font-weight: 300;
+}
+#incFontWeight2{
+    font-weight: 400;
+}
+
+
+#colorText {
+    color:rgb(0, 0, 0);
+}
+
+#colorWhite {
+    color:white;
+}
+
+
+#colorDarkblue {
+  color:darkblue;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: darkblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;  
+}
+
+/* selected link */
+a:active {
+  color: #FAF169;
+}
+

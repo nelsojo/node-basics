@@ -18,8 +18,25 @@ console.log("== circle.area(5):", circle.area(5))
 console.log("== circle.circumference(5):", circle.circumference(5))
 
 var figlet = require('figlet')
+
+
 figlet("Hello, CS 290!", function (err, data) {
     if (!err) {
         console.log(data)
     }
 })
+
+figlet.text('Boo!', {
+    font: 'Ghost',
+    horizontalLayout: 'default',
+    verticalLayout: 'default',
+    width: 80,
+    whitespaceBreak: true
+}, function(err, data) {
+    if (err) {
+        console.log('Something went wrong...');
+        console.dir(err);
+        return;
+    }
+    console.log(data);
+});
